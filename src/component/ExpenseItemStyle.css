@@ -1,0 +1,60 @@
+.Expenses{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+     padding: 0.5rem;
+    margin: 1rem 0;
+   
+    background-color: #4b4b4b;
+}
+.ExpenseInfo{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+}
+.title{
+    color: #fff;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.price{
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #40005d;
+    border: 1px solid white;
+    padding: 0.5rem;
+    border-radius: 12px;
+}
+@media(max-width : 850px){
+    .title{
+        color: #fff;
+        font-weight: bold;
+        font-size: 1.5rem;
+        padding-left: 2rem;
+    }
+}
+@media(max-width : 400px){
+
+    .Expenses{
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+         align-items: center;
+        margin: 1rem 0;
+       
+    }
+    .ExpenseInfo{
+        flex-direction: column;
+        justify-content: center;
+        width: 80%;
+        align-items: center;
+    }
+    .title{
+        text-align: center;
+        padding-left: 0;
+        padding-top: 1rem;
+    }
+
+}

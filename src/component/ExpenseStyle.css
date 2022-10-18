@@ -1,0 +1,32 @@
+.item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    justify-items: center;
+    padding:12px 7px ;
+    background-color: #4b4b4b;
+   
+    margin: 1.5rem 0;;
+}
+.date{
+    width: 20%;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    text-align: center;
+}
+h4{
+    color: #fff;
+    font-size: 35px;
+}
+h2{
+    color: #fff;
+    background-color: #40005d;
+    font-weight: bold;
+    padding: 0.5rem;
+    border: 1px #fff solid;
+    border-radius: 12px;
+}
