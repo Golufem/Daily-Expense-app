@@ -24,4 +24,30 @@
   .new-expense_actions {
     text-align: right;
   }
+  @media(max-width: 850px){
+    .new-expense_control{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .new-expense_control input {
+     display: flex;
+     align-self: center;
+      align-content: center;
+    justify-self: center;
+      width: 20rem;
+      max-width: 50%;
+    }
+    .new-expense_controls {
+      align-items: center;
+      justify-content: center;
+      
+      
+    }
+    .new-expense_actions button{
+      margin-bottom: 1rem;
+    }
+
+  }
  
